@@ -10,7 +10,8 @@ export default function MyApp() {
   return (
     <div className='App'>
       {/* <ItemList /> */}
-      <ProductList/>
+      {/* <ProductList/> */}
+      {/* <PricingPage/> */}
     </div>
   )
 }
