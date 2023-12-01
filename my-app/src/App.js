@@ -5,33 +5,15 @@ import PricingPage from './components/PricingPage';
 import ItemList from './components/ItemList';
 import ProductList from './components/ProductList';
 import './css/styles.css';
+import Student from '../../hai-dang/src/Le Hoang Hai Dang/student';
 
-// export default function MyApp() {
-//   return (
-//     <div className='App'>
-//       {/* <ItemList /> */}
-//       {/* <ProductList/> */}
-//       {/* <PricingPage/> */}
-//     </div>
-//   )
-// }
-
-export default function Counter() {
-  let like = 10;
+export default function MyApp() {
   return (
-      <div>
-          {/* camelcase */}
-          <button
-          onClick={ () => {
-              like++;
-              console.log(like);
-          }}
-      >
-          Like
-      </button>
-      <h1>{like}</h1>
-      <h1>{like}</h1>
-      <h1>{like}</h1>
-      </div>
-  );
+    <div className='App'>
+      {/* <ItemList /> */}
+      {/* <ProductList/> */}
+      {/* <PricingPage/> */}
+      <Student />
+    </div>
+  )
 }
