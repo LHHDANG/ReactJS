@@ -34,7 +34,6 @@ const studentData = [
 ];
 
 
-
 const App = () => {
   return (
     <div>
